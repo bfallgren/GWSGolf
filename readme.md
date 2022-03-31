@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## About
+'Good Walk Spoiled' Golf features: 
+Golf Course lookup/update with tee ratings
+Golf Score tracking and statistics
+Personal golf equipment inventory
+Home Club information and statistics
+Statistical Analysis (coming soon)
+User authentication
+
 ## Installation
 
 1.	git clone

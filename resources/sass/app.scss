@@ -1,0 +1,210 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ /* Modal Content */
+
+ .modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: lightgreen;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+ 
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+ 
+  padding: 2px 16px;
+  background-color:green;
+  /* green */
+  color: gold;
+}
+
+.modal-header .close {
+  margin: 0;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  width: 23px;
+  height: 23px;
+  /* border-radius: 23px;
+  background-color: black; */
+  color: white;
+  font-size: 24px;
+  opacity: 1;
+  z-index: 10;
+   
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.6;
+  background-color: green;
+  
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  background-color: lightgreen;
+}
+
+
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+  
+}
+
+.modal-footer > * {
+  margin: 0.25rem;
+  background-color:green;
+  color: gold;
+}
+  
+  /* end of Modal Content */
+  
+  .title {
+    font-size: 84px;
+    color: black;
+  }
+  
+  .m-b-md {
+    position: fixed;
+    bottom: 75px;
+  }
+  
+  
+  /* Links at bottom of page */
+  
+  .links {
+    overflow: hidden;
+    background-color: #333;
+    /* dark gray */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .links a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    /* off white */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .links a:hover {
+    background: #f1f1f1;
+    /* off white */
+    color: black;
+  }
+  
+  .links a.active {
+    background-color: #4CAF50;
+    /* green */
+    color: white;
+  }
+  
+  /* end of Links */
+  
+  .main {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .info {
+    color: Blue;
+    font-size: 18px;
+    padding: 45px 90px;
+  }
+  
+  /* Home Page content */
+  
+  .topPage {
+    position: absolute;
+    top: 95px;
+    right: 50px;
+    float: right;
+  }
+  
+  .centerPage {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: Blue;
+    font-size: 72px;
+  }
+  
+  .belowcenterPage {
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    color: Blue;
+    font-size: 24px;
+  }
+  
+  /* end of Home Page content */
+  
+  /* DropDown Menu hover content */
+  
+  ul li a:hover {
+    color: green !important;
+    background-color: white;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  ul li a {
+    /* submenu */
+    color: black !important;
+  }
+  
+  /* end of DropDown Menu hover content */
+  
+  .dropdown-item {
+    color: green !important;
+  }
+  
+  .bg-green {
+    background-color: #2eab41 !important;
+    color: black;
+  }
+  
+  

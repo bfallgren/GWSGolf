@@ -1,0 +1,23 @@
+Version 1.1 (commit 20220331)
+ToDo:
+    
+    charts/stats
+    Gallery page
+    expand best diff
+
+Version 1.0
+--Fix List
+
+--12/31/21    fixed Homeclub views/controller when course table is empty                  mods: HomeClubController create.blade
+--12/31/21    fixed scores views/controller when course table is empty                    mods: ScoreController create.blade
+--12/31/21    fixed redirect in CourseRatingController@store                              mods: CourseRatingController   
+--12/31/21    added shop_credit column to homeclubs db migration                             mods:2020_05_11_003727_create_homeclubs_table
+--12/31/21    set $currentYear to US/Eastern time zone                                    mods: ScoreController
+--12/31/21    added sweetalert2 to scores.create                                          mods: create.blade app.layout
+--12/31/21    removed styles from course_ratings index page (duplicated in app.blade)     mods: index.blade
+--12/31/21    removed styles from home_club index page (duplicated in app.blade)          mods: index.blade
+--1/27/21     hide scores/archives/clubs if admin user                                    mods: app.blade.php
+--1/28/22     hide # pagination entries on scores page and add row.remove after delete    mods: scores.index.blade.php
+
+Version 1.1
+--03/06/22    Added yardage to club table

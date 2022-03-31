@@ -8,13 +8,16 @@
 </p>
 
 ## About
+
 'Good Walk Spoiled' Golf features: 
-Golf Course lookup/update with tee ratings
-Golf Score tracking and statistics
-Personal golf equipment inventory
-Home Club information and statistics
-Statistical Analysis (coming soon)
-User authentication
+
+    Golf Course lookup/update with tee ratings
+    Golf Score tracking and statistics
+    Personal golf equipment inventory
+    Home Club information and statistics
+    Score archives
+    Gallery (coming soon)
+    User authentication
 
 ## Installation
 
